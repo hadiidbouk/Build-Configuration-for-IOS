@@ -24,7 +24,7 @@ Make a **Config.swift** file and copy paste the below code there.
 
 
 
-```
+```swift
 import Foundation
 private let configManagerSharedInstance = ConfigManager()
 class Config {
@@ -71,7 +71,7 @@ class ConfigManager: NSObject {
 ```
 # Step Four.
 I have also made a file **Constants.swift** in which i have set the varibles using the above code.
-```
+```swift
 
 //
 //  Constants.swift
